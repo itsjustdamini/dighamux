@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+Sitemap: https://dighamux.vercel.app/sitemap.xml
