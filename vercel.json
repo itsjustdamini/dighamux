@@ -1,13 +1,8 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
   "redirects": [
     { "source": "/html/biomedical.html", "destination": "/biomedical", "permanent": true },
-    { "source": "/html/biomedical", "destination": "/biomedical", "permanent": true },
     { "source": "/html/contact.html", "destination": "/contact", "permanent": true },
-    { "source": "/html/contact", "destination": "/contact", "permanent": true },
     { "source": "/html/comingsoon.html", "destination": "/comingsoon", "permanent": true },
-    { "source": "/html/comingsoon", "destination": "/comingsoon", "permanent": true },
     { "source": "/index.html", "destination": "/", "permanent": true }
   ],
   "rewrites": [

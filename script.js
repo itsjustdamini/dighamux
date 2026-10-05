@@ -11,4 +11,5 @@ fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/
 var c=document.getElementById('count');
 if(c){var T=new Date('2027-09-01T00:00:00+01:00');(function k(){var s=Math.floor(Math.max(0,T-new Date())/1e3),v=[Math.floor(s/86400),Math.floor(s%86400/3600),Math.floor(s%3600/60),s%60];
 c.querySelectorAll('b').forEach(function(e,i){e.textContent=String(v[i]).padStart(2,'0')});setTimeout(k,1000)})()}
+var rd=document.getElementById('redirect');if(rd){var sec=6,nb=rd.querySelector('b'),iv=setInterval(function(){sec--;nb.textContent=sec;if(sec<=0){clearInterval(iv);location.href='/'}},1000)}
 })();
