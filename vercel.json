@@ -3,11 +3,15 @@
     { "source": "/html/biomedical.html", "destination": "/biomedical", "permanent": true },
     { "source": "/html/contact.html", "destination": "/contact", "permanent": true },
     { "source": "/html/comingsoon.html", "destination": "/comingsoon", "permanent": true },
+    { "source": "/html/gallery.html", "destination": "/gallery", "permanent": true },
+    { "source": "/html/ourstory.html", "destination": "/ourstory", "permanent": true },
     { "source": "/index.html", "destination": "/", "permanent": true }
   ],
   "rewrites": [
     { "source": "/biomedical", "destination": "/html/biomedical.html" },
     { "source": "/contact", "destination": "/html/contact.html" },
-    { "source": "/comingsoon", "destination": "/html/comingsoon.html" }
+    { "source": "/comingsoon", "destination": "/html/comingsoon.html" },
+    { "source": "/gallery", "destination": "/html/gallery.html" },
+    { "source": "/ourstory", "destination": "/html/ourstory.html" }
   ]
 }
