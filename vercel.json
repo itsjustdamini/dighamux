@@ -1,17 +1,101 @@
 {
   "redirects": [
-    { "source": "/html/biomedical.html", "destination": "/biomedical", "permanent": true },
-    { "source": "/html/contact.html", "destination": "/contact", "permanent": true },
-    { "source": "/html/comingsoon.html", "destination": "/comingsoon", "permanent": true },
-    { "source": "/html/gallery.html", "destination": "/gallery", "permanent": true },
-    { "source": "/html/ourstory.html", "destination": "/ourstory", "permanent": true },
-    { "source": "/index.html", "destination": "/", "permanent": true }
+    {
+      "source": "/html/repair.html",
+      "destination": "/repair",
+      "permanent": true
+    },
+    {
+      "source": "/html/products/:slug.html",
+      "destination": "/products/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/html/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/html/services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/html/products.html",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
+      "source": "/html/biomedical.html",
+      "destination": "/biomedical",
+      "permanent": true
+    },
+    {
+      "source": "/html/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/html/comingsoon.html",
+      "destination": "/comingsoon",
+      "permanent": true
+    },
+    {
+      "source": "/html/gallery.html",
+      "destination": "/gallery",
+      "permanent": true
+    },
+    {
+      "source": "/html/ourstory.html",
+      "destination": "/ourstory",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    }
   ],
   "rewrites": [
-    { "source": "/biomedical", "destination": "/html/biomedical.html" },
-    { "source": "/contact", "destination": "/html/contact.html" },
-    { "source": "/comingsoon", "destination": "/html/comingsoon.html" },
-    { "source": "/gallery", "destination": "/html/gallery.html" },
-    { "source": "/ourstory", "destination": "/html/ourstory.html" }
+    {
+      "source": "/biomedical",
+      "destination": "/html/biomedical.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/html/contact.html"
+    },
+    {
+      "source": "/comingsoon",
+      "destination": "/html/comingsoon.html"
+    },
+    {
+      "source": "/gallery",
+      "destination": "/html/gallery.html"
+    },
+    {
+      "source": "/ourstory",
+      "destination": "/html/ourstory.html"
+    },
+    {
+      "source": "/products",
+      "destination": "/html/products.html"
+    },
+    {
+      "source": "/services",
+      "destination": "/html/services.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/html/about.html"
+    },
+    {
+      "source": "/products/:slug",
+      "destination": "/html/products/:slug.html"
+    },
+    {
+      "source": "/repair",
+      "destination": "/html/repair.html"
+    }
   ]
 }
